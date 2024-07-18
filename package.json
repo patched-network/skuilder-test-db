@@ -1,0 +1,22 @@
+{
+  "name": "skuilder-test-db",
+  "version": "0.0.1",
+  "description": "- ✅ a **db dump** of a small production skuilder webapp - ✅ a couchdb `ini` file suitable for dev environments - ✅ a script to launch a docker container that serves the above - ❌ (todo) a script to refresh the production db dump against some source couchdb instance",
+  "main": "replicate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiloCK/skuilder-test-db.git"
+  },
+  "author": "Colin Kennedy",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/NiloCK/skuilder-test-db/issues"
+  },
+  "homepage": "https://github.com/NiloCK/skuilder-test-db#readme",
+  "devDependencies": {
+    "request-promise-native": "^1.0.9"
+  }
+}
