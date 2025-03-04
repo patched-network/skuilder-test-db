@@ -15,10 +15,9 @@ case $1 in
       fi
     else
       echo "Creating and starting new CouchDB container..."
-    
+
       docker run -d \
         --name ${CONTAINER_NAME} \
-        --network host \
         -p 5984:5984 \
         -e COUCHDB_USER=admin \
         -e COUCHDB_PASSWORD=password \
