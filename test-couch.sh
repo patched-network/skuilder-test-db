@@ -23,7 +23,7 @@ case $1 in
         -e COUCHDB_PASSWORD=password \
         -v $(pwd)/couchdb_data:/opt/couchdb/data \
         -v ${CONFIG_FILE}:/opt/couchdb/etc/local.ini \
-        couchdb:2.3.1
+        couchdb:3.4.3
     fi
     ;;
   stop)
